@@ -4,7 +4,7 @@ public class EmployeeData {
     public static void main(String[] args) {
         String url = "jdbc:mysql://MR-DEVIL:3306/TestDB";
         String user = "root";
-        String password = "Rishu@123";
+        String password = "root";
 
         try {
 
