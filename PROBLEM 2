@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ProductCRUD {
     static String url = "jdbc:mysql://MR-DEVIL:3306/TestDB";  // Use existing testdb
     static String user = "root";  // Change if using another username
-    static String password = "Rishu@123";  // Add your MySQL password if required
+    static String password = "root";  // Add your MySQL password if required
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
